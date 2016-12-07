@@ -51,6 +51,10 @@ public class EmployeeReward implements Serializable {
 		this.recipient = recipient;
 	}
 	
+	public EmployeeReward(){
+		
+	}
+	
 	public EmployeeReward(String recipient, String rewardReason, Integer rewardAmount, String rewardManagerComment,
 			boolean rewardManagerApproval, boolean rewardHRApproval) {
 		this.recipient = recipient; 
@@ -61,10 +65,4 @@ public class EmployeeReward implements Serializable {
 		this.rewardHRApproval = rewardHRApproval;
 	}
 
-	@Override
-	public String toString() {
-		return "EmployeeReward [rewardReason=" + rewardReason + ", rewardAmount=" + rewardAmount
-				+ ", rewardManagerComment=" + rewardManagerComment + ", rewardManagerApproval=" + rewardManagerApproval
-				+ ", rewardHRApproval=" + rewardHRApproval + "]";
-	}
 }
