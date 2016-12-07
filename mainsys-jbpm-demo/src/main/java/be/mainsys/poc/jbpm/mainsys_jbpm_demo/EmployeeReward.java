@@ -4,6 +4,13 @@ import java.io.Serializable;
 
 public class EmployeeReward implements Serializable {
 
+	@Override
+	public String toString() {
+		return "EmployeeReward [recipient=" + recipient + ", rewardReason=" + rewardReason + ", rewardAmount="
+				+ rewardAmount + ", rewardManagerComment=" + rewardManagerComment + ", rewardManagerApproval="
+				+ rewardManagerApproval + ", rewardHRApproval=" + rewardHRApproval + "]";
+	}
+
 	private static final long serialVersionUID = 1L;
 	
 	private String recipient; 
