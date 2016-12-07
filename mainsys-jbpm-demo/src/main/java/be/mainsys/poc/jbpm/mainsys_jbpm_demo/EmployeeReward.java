@@ -38,13 +38,13 @@ public class EmployeeReward implements Serializable {
 	public void setRewardManagerComment(String rewardManagerComment) {
 		this.rewardManagerComment = rewardManagerComment;
 	}
-	public boolean isRewardManagerApproval() {
+	public boolean getRewardManagerApproval() {
 		return rewardManagerApproval;
 	}
 	public void setRewardManagerApproval(boolean rewardManagerApproval) {
 		this.rewardManagerApproval = rewardManagerApproval;
 	}
-	public boolean isRewardHRApproval() {
+	public boolean getRewardHRApproval() {
 		return rewardHRApproval;
 	}
 	public void setRewardHRApproval(boolean rewardHRApproval) {
