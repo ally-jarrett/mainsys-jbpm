@@ -1,9 +1,0 @@
-package be.mainsys.poc.jbpm.mainsys_jbpm_demo;
-
-import java.lang.Number;
-
-rule "test"
-	dialect "mvel"
-	when
-	then
-end
