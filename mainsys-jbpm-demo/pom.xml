@@ -20,7 +20,6 @@
       <version>6.5.0.Final-redhat-2</version>
       <scope>provided</scope>
     </dependency>
-  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
